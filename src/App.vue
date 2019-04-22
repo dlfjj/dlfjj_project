@@ -3,15 +3,16 @@
     <header class="header">
       <nav class="inner">
         <router-link to="/" exact>
-          <img class="logo" src="~public/logo-48.png" alt="logo">
+          <img class="logo" src="~public/cannabis2.png" alt="logo">
         </router-link>
+          <router-link to="/home">Home</router-link>
         <router-link to="/top">Top</router-link>
         <router-link to="/new">New</router-link>
-        <router-link to="/show">Show</router-link>
+        <!--<router-link to="/show">Show</router-link>-->
         <router-link to="/ask">Ask</router-link>
-        <router-link to="/job">Jobs</router-link>
-        <a class="github" href="https://github.com/vuejs/vue-hackernews-2.0" target="_blank" rel="noopener">
-          Built with Vue.js
+        <!--<router-link to="/job">Jobs</router-link>-->
+        <a class="github" href="https://github.com/dlfjj" target="_blank" rel="noopener">
+            ıllıllı DLFJJ ıllıllı
         </a>
       </nav>
     </header>
@@ -71,7 +72,7 @@ a
     float right
 
 .logo
-  width 24px
+  width 25px
   margin-right 10px
   display inline-block
   vertical-align middle

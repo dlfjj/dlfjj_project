@@ -60,8 +60,13 @@ module.exports = {
             })
           : ['vue-style-loader', 'css-loader', 'stylus-loader']
       },
+        {
+            test: /\.(woff|woff2|otf|eot|ttf|svg)(\?.*$|$)/,
+            loader: 'url-loader?importLoaders=1&limit=100000'
+        }
     ]
   },
+
   performance: {
     hints: false
   },

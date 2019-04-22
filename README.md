@@ -12,25 +12,13 @@ HackerNews clone built with Vue 2.0 + vue-router + vuex, with server-side render
 
 ## Features
 
-> Note: in practice, it is unnecessary to code-split for an app of this size (where each async chunk is only a few kilobytes), nor is it optimal to extract an extra CSS file (which is only 1kb) -- they are used simply because this is a demo app showcasing all the supported features.
-
-- Server Side Rendering
+- Server Side Rendering Website
   - Vue + vue-router + vuex working together
   - Server-side data pre-fetching
   - Client-side state & DOM hydration
   - Automatically inlines CSS used by rendered components only
   - Preload / prefetch resource hints
   - Route-level code splitting
-- Progressive Web App
-  - App manifest
-  - Service worker
-  - 100/100 Lighthouse score
-- Single-file Vue Components
-  - Hot-reload in development
-  - CSS extraction for production
-- Animation
-  - Effects when switching route views
-  - Real-time list updates with FLIP Animation
 
 ## A Note on Performance
 
